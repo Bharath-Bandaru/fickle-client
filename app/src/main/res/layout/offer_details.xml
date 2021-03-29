@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBack">
+    <include layout="@layout/toolbar"></include>
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        card_view:cardCornerRadius="8dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="STAR Sports India brings to you all the cricketing action LIVE on your Mobile."/>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        card_view:cardCornerRadius="8dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Airtel Store
+2.4 km · Shop No. 3-131/12, Narsapur Cross Road, Bala Nagar, 9491123123, Jeedimetla Main Road, Kukatpally Industrial Estate, Balanagar
+080087 06165
+Opens at 9:30 AM"/>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
